@@ -1,8 +1,8 @@
 import 'dart:async';
 //!Importante
 //*Timeout é o tempo limite para execução de um Future
-//!O Timeout não cancela a ação do Future
-//!Ele vai continuar fazendo a ação mesmo com timeout, até terminar.
+//!O Timeout não cancela a execução do Future
+//!Ele vai continuar fazendo a execução mesmo com timeout, até ela terminar.
 Future<void> main() async {
   /*final aguardando = inserindoAlgoBemLento();
   print(DateTime.now().toIso8601String());
